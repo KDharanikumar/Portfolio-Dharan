@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "degree": "Diploma In Automobile Engineering",
+    "year": "2009-2011",
+    "institute": "Dusi Polytechnic College",
+    "place": "Dusi"
+  },
+  {
+    "id": "2",
+    "degree": "BE-Mechanical Engineering",
+    "year": "2013-2016",
+    "institute": "AMACE",
+    "place": "Kancheepuram"
+  },
+  {
+    "id": "3",
+    "degree": "MBA-Supply Chain Management",
+    "year": "2018-2019",
+    "institute": "University of Madras",
+    "place": "Chennai"
+  },
+  {
+    "id": "4",
+    "degree": "Full Stack Developer",
+    "year": "2022-2023",
+    "institute": "Guvi",
+    "place": "Chennai"
+  }
+]
