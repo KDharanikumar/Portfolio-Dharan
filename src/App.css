@@ -400,15 +400,16 @@ button:hover {
 /*******************************************************---PORTFOLIO---******************************************************/
 
 .mywork {
-  height: 300px;
+  height: 350px;
   width: 300px;
   display: block;
   overflow: hidden;
   position: relative;
+  border: 2px solid #ff014f;
 }
 
 .mywork img {
-  bottom: -500px;
+  bottom: -330px;
   width: 100%;
   height: auto;
   position: absolute;
@@ -428,7 +429,7 @@ button:hover {
   -moz-transition: all 11s;
   -ms-transition: all 11s;
   -o-transition: all 11s;
-  transition: all 11s;
+  transition: all 5s;
 }
 
 .mywork a {

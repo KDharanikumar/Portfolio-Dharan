@@ -3,12 +3,18 @@
     "id": "1",
     "category": "Websites",
     "picture": "Images/Portfolio.jpg",
-    "url": "https://fitlogger.netlify.app/"
+    "url": "https://dharanportfolio.netlify.app/"
   },
   {
-    "id": "1",
-    "category": "Design",
+    "id": "2",
+    "category": "Websites",
+    "picture": "Images/FitLog.png",
+    "url": "https://fitnesslog.netlify.app/"
+  },
+  {
+    "id": "3",
+    "category": "E-Commerce",
     "picture": "Images/Portfolio.jpg",
-    "url": "https://e-com-car.netlify.app/"
+    "url": "https://dharanportfolio.netlify.app/"
   }
 ]

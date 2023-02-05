@@ -1,6 +1,5 @@
 import { BsFillEyeFill } from "react-icons/bs";
 import Portfol from "../Data/Portfolio.json";
-import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Portfolio = () => {
@@ -23,21 +22,21 @@ const Portfolio = () => {
           <div className="d-flex justify-content-center align-items-center mb-5">
             <button onClick={() => setItems(Portfol)}>ALL</button>
             <button onClick={() => filterItem("Websites")}>WEBSITES</button>
-            <button onClick={() => filterItem("Design")}>DESIGN</button>
+            <button onClick={() => filterItem("E-Commerce")}>E-COMMERCE</button>
           </div>
-          <motion.div layout className="col d-flex flex-wrap justify-content-evenly align-items-center gap-3">
+          <div className="col d-flex flex-wrap justify-content-evenly align-items-center gap-3">
             {items.map((element) => {
               const { category, picture, url } = element;
               return (
-                <motion.div className="mywork">
+                <div className="mywork">
                   <img src={picture} alt={category} />
                   <a href={url} target="blank">
                     <BsFillEyeFill />
                   </a>
-                </motion.div>
+                </div>
               );
             })}
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
