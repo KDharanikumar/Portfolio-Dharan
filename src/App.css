@@ -32,12 +32,12 @@ body {
   padding: 0px;
 }
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
 h1 {
   text-align: center;
@@ -253,7 +253,7 @@ button:hover {
 
 .my-pic img {
   height: 450px;
-  width: 380px;
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -285,7 +285,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  column-gap: 150px;
+  column-gap: 140px;
+  padding: 0;
 }
 
 .skills li icon {
@@ -313,15 +314,17 @@ button:hover {
   font-weight: 600;
 }
 
-.education-details {
+.education-details,
+.experience-details {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.education-details .card {
-  width: 450px;
+.education-details .card,
+.experience-details .card {
+  width: 400px;
   margin-bottom: 25px;
 }
 
@@ -338,36 +341,28 @@ button:hover {
   column-gap: 20px;
 }
 
-.education-details li icon {
+.education-details li icon,
+.experience-details li icon {
   font-size: 24px;
 }
 
-.education-details li p {
+.education-details li p,
+.experience-details li p {
   margin-bottom: 0px;
   font-size: 15px;
   font-weight: 500;
 }
 
-.education-details .degree p {
+.education-details .degree p,
+.experience-details .role p {
   font-size: 16px;
   font-weight: 600;
 }
 
-.education-details .year p {
+.education-details .year p,
+.experience-details .year p {
   font-size: 15px;
   font-weight: 600;
-}
-
-.experience-details .card {
-  width: 450px;
-  margin-bottom: 25px;
-}
-
-.experience-details {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .experience-details .role,
@@ -377,31 +372,11 @@ button:hover {
   column-gap: 20px;
 }
 
-.experience-details li icon {
-  font-size: 24px;
-}
-
-.experience-details li p {
-  margin-bottom: 0px;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.experience-details .role p {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.experience-details .year p {
-  font-size: 15px;
-  font-weight: 600;
-}
-
 /*******************************************************---PORTFOLIO---******************************************************/
 
 .mywork {
   height: 350px;
-  width: 300px;
+  width: 260px;
   display: block;
   overflow: hidden;
   position: relative;
@@ -409,7 +384,7 @@ button:hover {
 }
 
 .mywork img {
-  bottom: -330px;
+  bottom: -250px;
   width: 100%;
   height: auto;
   position: absolute;
@@ -458,7 +433,7 @@ button:hover {
 
 .address-card .card {
   height: 350px;
-  width: 250px;
+  width: 270px;
   text-align: center;
 }
 

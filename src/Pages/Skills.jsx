@@ -9,7 +9,7 @@ const Skills = () => {
           <h1>
             My <span>Skills</span>
           </h1>
-          <div className="col-md-12 skills">
+          <div className="col skills">
             <ul>
               <li>
                 <icon style={{ color: "#F35625" }}>

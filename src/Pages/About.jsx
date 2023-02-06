@@ -9,16 +9,16 @@ const About = () => {
           <h1>
             About <span>Me</span>
           </h1>
-          <div className="col-6 m-auto d-flex justify-content-center align-items-center">
+          <div className="col-md-6 p-0 m-auto d-flex justify-content-center align-items-center">
             <div className="my-pic">
               <img src={Dharan} alt="img" />
             </div>
           </div>
-          <div className="col-md-6 my-details">
+          <div className="col-md-6 p-3 my-details">
             <h3 className="mb-4">
               Hai I Am, <span>Dharanikumar K</span>
             </h3>
-            <p className="mb-4 w-75">
+            <p className="mb-4">
               I'm a FullStack Developer. My expertise is to create Web Application and Websites Design.
             </p>
             <ul className="mb-5 p-0">

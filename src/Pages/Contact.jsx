@@ -22,12 +22,12 @@ const Contact = () => {
   return (
     <section>
       <div className="container Contact-page py-5" id="contact">
+        <h1>
+          Contact <span>Us</span>
+        </h1>
         <div className="row">
-          <h1>
-            Contact <span>Us</span>
-          </h1>
-          <div className="col-md-4 address-card d-flex justify-content-center">
-            <div className="card d-flex flex-wrap justify-content-center align-items-center">
+          <div className="col-md-5 address-card d-flex justify-content-center">
+            <div className="card mb-3 d-flex flex-wrap justify-content-center align-items-center">
               <div>
                 <icon>
                   <HiLocationMarker />
@@ -52,7 +52,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-8 contacting-form">
+          <div className="col-md-6 contacting-form">
             <h3 className="contact-form-topic">Get in Touch</h3>
             <div>
               <form ref={form} onSubmit={sendEmail} className="contact-form">
@@ -60,7 +60,7 @@ const Contact = () => {
                 <input type="Text" className="form-control mb-3" placeholder="Name" name="user_name" />
                 <div className="d-flex">
                   <label className="form-label"></label>
-                  <input type="tel" className="form-control mb-3 me-5" placeholder="Phone Number" name="phone" />
+                  <input type="tel" className="form-control mb-3 me-4" placeholder="Phone Number" name="phone" />
                   <label className="form-label"></label>
                   <input type="email" className="form-control mb-3" placeholder="E-Mail" name="user_email" />
                 </div>
