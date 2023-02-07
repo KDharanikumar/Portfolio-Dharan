@@ -1,6 +1,6 @@
 import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
-import Cv from "../Images/Resume.pdf";
+// import Cv from "../Images/Resume.pdf";
 
 function Home() {
   return (
@@ -53,7 +53,11 @@ function Home() {
                   </a>
                 </ul>
                 <div className="d-flex justify-content-center align-items-center">
-                  <a href={Cv} download="Resume" target="blank">
+                  <a
+                    href="https://drive.google.com/file/d/1xD6SOSf28V2hqVsj6nlLx2Q0L_epkG6B/view?usp=sharing"
+                    target="blank"
+                  >
+                    {/* {Cv} download="Resume" */}
                     <button>RESUME</button>
                   </a>
 
