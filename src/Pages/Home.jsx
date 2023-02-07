@@ -54,7 +54,7 @@ function Home() {
                 </ul>
                 <div className="d-flex justify-content-center align-items-center">
                   <a
-                    href="https://drive.google.com/file/d/1xD6SOSf28V2hqVsj6nlLx2Q0L_epkG6B/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1ggdBfvCkw0xLWNukd-Ukip0RBWCi-vYH/view?usp=sharing"
                     target="blank"
                   >
                     {/* {Cv} download="Resume" */}
