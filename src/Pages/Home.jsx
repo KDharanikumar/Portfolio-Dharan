@@ -1,4 +1,4 @@
-import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import Cv from "../Images/Resume.pdf";
 
@@ -36,6 +36,11 @@ function Home() {
                       <FaLinkedinIn />
                     </li>
                   </a>
+                  <a href="https://github.com/KDharanikumar" target="blank">
+                    <li>
+                      <FaGithub />
+                    </li>
+                  </a>
                   <a href="https://www.facebook.com/DharanikumarKalaiselvan/" target="blank">
                     <li>
                       <FaFacebookF />
@@ -48,10 +53,11 @@ function Home() {
                   </a>
                 </ul>
                 <div className="d-flex justify-content-center align-items-center">
-                  <a href={Cv} download="Resume">
+                  <a href={Cv} download="Resume" target="blank">
                     <button>RESUME</button>
                   </a>
-                  <a href="mailto:dharanfsd@gmail.com" target="blank">
+
+                  <a href="mailto:dharanfsd@gmail.com">
                     <button>CONATCT</button>
                   </a>
                 </div>
