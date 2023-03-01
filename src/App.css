@@ -1,35 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  box-sizing: border-box;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  outline: none;
-  word-wrap: break-word;
-  letter-spacing: 0.5px;
+	font-family: "Poppins", sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	word-wrap: break-word;
+	letter-spacing: 0.5px;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 body {
-  background-color: #000;
-  color: #fff;
+	background-color: #000;
+	color: #fff;
 }
 
 .card {
-  background-color: #000;
-  color: #fff;
-  border: 1px solid#ff014f;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid#ff014f;
 }
 
 .container-fluid {
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* .container {
@@ -40,460 +40,460 @@ body {
 } */
 
 h1 {
-  text-align: center;
-  align-items: center;
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 40px;
+	text-align: center;
+	align-items: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 40px;
 }
 
 h1 span {
-  color: #ff014f;
+	color: #ff014f;
 }
 
 h3 {
-  font-size: 40px;
-  font-weight: 600;
+	font-size: 40px;
+	font-weight: 600;
 }
 
 h3 span {
-  color: #ff014f;
+	color: #ff014f;
 }
 
 /*******************************************************---BUTTON---******************************************************/
 
 button {
-  height: fit-content;
-  width: fit-content;
-  border-radius: 20px;
-  color: #fff;
-  background-color: black;
-  border: 2px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid#FF014F;
-  margin: 0px 15px 0px 0px;
-  padding: 8px 20px;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	color: #fff;
+	background-color: black;
+	border: 2px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid#FF014F;
+	margin: 0px 15px 0px 0px;
+	padding: 8px 20px;
 }
 
 button:hover {
-  background-color: #ff014f;
+	background-color: #ff014f;
 }
 
 /*******************************************************---NAVBAR---******************************************************/
 .header {
-  position: fixed;
-  height: 90px;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  transition: 0.3s ease-in;
-  overflow: hidden;
-  background-color: #000;
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: 0.3s ease-in;
+	overflow: hidden;
+	background-color: #000;
 }
 
 .logo {
-  color: #ff014f;
-  font-size: 28px;
-  font-weight: 700;
-  font-style: italic;
-  cursor: pointer;
+	color: #ff014f;
+	font-size: 28px;
+	font-weight: 700;
+	font-style: italic;
+	cursor: pointer;
 }
 
 .header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  max-width: 1240px;
-  margin: auto;
-  height: 100%;
-  padding: 0 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	max-width: 1240px;
+	margin: auto;
+	height: 100%;
+	padding: 0 1rem;
 }
 
 .header .nav-menu a {
-  color: #ff014f;
-  cursor: pointer;
+	color: #ff014f;
+	cursor: pointer;
 }
 
 .header .nav-menu {
-  display: flex;
+	display: flex;
 }
 
 .header .nav-item {
-  padding: 1rem;
-  font-weight: 700;
+	padding: 1rem;
+	font-weight: 700;
 }
 
 .header .nav-item a:hover {
-  color: #ff014f;
-  border-bottom: 2px solid #fff;
+	color: #ff014f;
+	border-bottom: 2px solid #fff;
 }
 
 .nav-item .active {
-  border-bottom: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 }
 
 .hamburger {
-  display: none;
+	display: none;
 }
 
 @media screen and (max-width: 940px) {
-  .header {
-    max-width: 100%;
-    background-color: #000;
-  }
+	.header {
+		max-width: 100%;
+		background-color: #000;
+	}
 
-  .header .navbar {
-    max-width: 100%;
-  }
+	.header .navbar {
+		max-width: 100%;
+	}
 
-  .hamburger {
-    display: block;
-  }
+	.hamburger {
+		display: block;
+	}
 
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 90px;
-    flex-direction: column;
-    background-color: #000;
-    width: 100%;
-    height: 90vh;
-    z-index: 999;
-    text-align: center;
-    transition: 0.3s;
-  }
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 90px;
+		flex-direction: column;
+		background-color: #000;
+		width: 100%;
+		height: 90vh;
+		z-index: 999;
+		text-align: center;
+		transition: 0.3s;
+	}
 
-  .nav-menu.active {
-    left: 0;
-  }
+	.nav-menu.active {
+		left: 0;
+	}
 
-  .nav-item {
-    margin: 1.5rem 0;
-  }
+	.nav-item {
+		margin: 1.5rem 0;
+	}
 }
 
 /*******************************************************---HOME---******************************************************/
 
 .banner {
-  background-image: url(/src/Images/Banner.jpg);
-  height: 700px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center center;
+	background-image: url(/src/Images/Banner.jpg);
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center center;
 }
 
 .mydetails {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 1;
-  overflow: hidden;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+	overflow: hidden;
 }
 
 .mydetails p,
 .static-text,
 .dynamic-text {
-  font-size: 50px;
-  font-weight: 600;
+	font-size: 50px;
+	font-weight: 600;
 }
 
 .specialist {
-  font-size: 14px;
-  font-weight: 400;
-  margin: 10px 0px;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 10px 0px;
 }
 
 .specialist span {
-  color: #ff014f;
-  margin: 0px 10px;
+	color: #ff014f;
+	margin: 0px 10px;
 }
 
 .mydetails .social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  row-gap: 20px;
-  column-gap: 30px;
-  padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	row-gap: 20px;
+	column-gap: 30px;
+	padding: 0px;
 }
 
 .mydetails .social-icon li {
-  font-size: 25px;
-  height: 40px;
-  width: 40px;
-  margin: 10px 0px;
-  color: #fff;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	margin: 10px 0px;
+	color: #fff;
 }
 
 .mydetails .social-icon li:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-  border-radius: 100%;
-  background-color: #ff014f;
-  cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+	border-radius: 100%;
+	background-color: #ff014f;
+	cursor: pointer;
 }
 
 /*******************************************************---ABOUT---******************************************************/
 
 .my-pic img {
-  height: 450px;
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 20px;
+	height: 450px;
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 .my-details ul li {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .my-details ul li span {
-  display: inline-block;
-  position: relative;
-  font-size: 15px;
-  font-weight: 600;
-  width: 110px;
-  margin-right: 25px;
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	font-weight: 600;
+	width: 110px;
+	margin-right: 25px;
 }
 
 .my-details ul li :after {
-  content: ":";
-  position: absolute;
-  right: 0;
+	content: ":";
+	position: absolute;
+	right: 0;
 }
 
 /*******************************************************---SKILLS---******************************************************/
 
 .skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  column-gap: 140px;
-  padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	column-gap: 140px;
+	padding: 0;
 }
 
 .skills li icon {
-  font-size: 100px;
-  font-weight: 800;
+	font-size: 100px;
+	font-weight: 800;
 }
 
 /*******************************************************---RESUME---******************************************************/
 
 .resume-topic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 15px;
-  margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 15px;
+	margin-bottom: 20px;
 }
 
 .resume-topic .icon {
-  font-size: 35px;
-  color: #ff014f;
+	font-size: 35px;
+	color: #ff014f;
 }
 
 .resume-topic span {
-  font-size: 30px;
-  font-weight: 600;
+	font-size: 30px;
+	font-weight: 600;
 }
 
 .education-details,
 .experience-details {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .education-details .card,
 .experience-details .card {
-  width: 400px;
-  margin-bottom: 25px;
+	width: 400px;
+	margin-bottom: 25px;
 }
 
 .education-details li,
 .experience-details li {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .education-details .degree,
 .year,
 .institute,
 .location {
-  column-gap: 20px;
+	column-gap: 20px;
 }
 
 .education-details li icon,
 .experience-details li icon {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .education-details li p,
 .experience-details li p {
-  margin-bottom: 0px;
-  font-size: 15px;
-  font-weight: 500;
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-weight: 500;
 }
 
 .education-details .degree p,
 .experience-details .role p {
-  font-size: 16px;
-  font-weight: 600;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 .education-details .year p,
 .experience-details .year p {
-  font-size: 15px;
-  font-weight: 600;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 .experience-details .role,
 .year,
 .company,
 .location {
-  column-gap: 20px;
+	column-gap: 20px;
 }
 
 /*******************************************************---PORTFOLIO---******************************************************/
 
 .mywork {
-  height: 350px;
-  width: 260px;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  border: 2px solid #ff014f;
+	height: 350px;
+	width: 260px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #ff014f;
 }
 
 .mywork img {
-  bottom: -250px;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  z-index: 0;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: top 11s;
-  -moz-transition: top 11s;
-  -ms-transition: top 11s;
-  -o-transition: top 11s;
-  transition: bottom 11s;
-  display: block;
+	bottom: -250px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+	margin: 0;
+	padding: 0;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+	display: block;
 }
 .mywork:hover img {
-  bottom: 0;
-  -webkit-transition: all 11s;
-  -moz-transition: all 11s;
-  -ms-transition: all 11s;
-  -o-transition: all 11s;
-  transition: all 5s;
+	bottom: 0;
+	-webkit-transition: all 11s;
+	-moz-transition: all 11s;
+	-ms-transition: all 11s;
+	-o-transition: all 11s;
+	transition: all 5s;
 }
 
 .mywork a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 48px;
-  font-weight: 800;
-  opacity: 0;
-  transition: opacity 0.25s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	font-weight: 800;
+	opacity: 0;
+	transition: opacity 0.25s;
 }
 
 .mywork a:hover {
-  opacity: 1;
-  transform: translateY(0);
+	opacity: 1;
+	transform: translateY(0);
 }
 /*******************************************************---CONATCT---******************************************************/
 
 .address-card .card {
-  height: 350px;
-  width: 270px;
-  text-align: center;
+	height: 380px;
+	width: 270px;
+	text-align: center;
 }
 
 .address-card .card icon {
-  color: #ff014f;
-  font-size: 30px;
+	color: #ff014f;
+	font-size: 30px;
 }
 
 .address-card .card h6 {
-  margin-bottom: 0px;
-  font-weight: 600;
+	margin-bottom: 0px;
+	font-weight: 600;
 }
 
 .contact-form-topic {
-  color: #ff014f;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 0px;
+	color: #ff014f;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 0px;
 }
 
 .contact-form input {
-  background-color: #000;
-  height: 50px;
-  border: 1.5px solid #fff;
-  border-radius: 0px;
-  color: #fff;
+	background-color: #000;
+	height: 50px;
+	border: 1.5px solid #fff;
+	border-radius: 0px;
+	color: #fff;
 }
 
 .contact-form textarea {
-  background-color: #000;
-  border-radius: 0px;
-  height: 150px;
-  color: #fff;
+	background-color: #000;
+	border-radius: 0px;
+	height: 150px;
+	color: #fff;
 }
 
 .contact-form input:focus {
-  background-color: #000;
-  border: 1.5px solid #ff014f;
-  box-shadow: none;
-  color: #fff;
+	background-color: #000;
+	border: 1.5px solid #ff014f;
+	box-shadow: none;
+	color: #fff;
 }
 
 .contact-form textarea:focus {
-  background-color: #000;
-  border: 1.5px solid #ff014f;
-  box-shadow: none;
-  color: #fff;
+	background-color: #000;
+	border: 1.5px solid #ff014f;
+	box-shadow: none;
+	color: #fff;
 }
 
 .form-control::placeholder {
-  color: #fff;
-  opacity: 0.5;
+	color: #fff;
+	opacity: 0.5;
 }
 
 /*******************************************************---FOOTER---******************************************************/
 
 .footer-content {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
 }
