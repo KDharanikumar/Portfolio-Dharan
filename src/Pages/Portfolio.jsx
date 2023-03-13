@@ -23,6 +23,7 @@ const Portfolio = () => {
 						<button onClick={() => setItems(Portfol)}>ALL</button>
 						<button onClick={() => filterItem("Portfolio")}>PORTFOLIO</button>
 						<button onClick={() => filterItem("Websites")}>WEBSITES</button>
+						<button onClick={() => filterItem("E-Com")}>E-COM</button>
 					</div>
 					<div className="col d-flex flex-wrap justify-content-evenly align-items-center gap-3">
 						{items.map((element) => {

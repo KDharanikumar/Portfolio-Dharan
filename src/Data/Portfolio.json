@@ -16,5 +16,11 @@
 		"category": "Websites",
 		"picture": "Images/Address Book.jpg",
 		"url": "https://addressstorebook.netlify.app/"
+	},
+	{
+		"id": "4",
+		"category": "E-Com",
+		"picture": "Images/Pizza.jpg",
+		"url": "https://pizza-client.netlify.app/"
 	}
 ]
