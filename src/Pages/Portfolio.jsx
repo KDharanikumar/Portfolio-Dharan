@@ -21,7 +21,7 @@ const Portfolio = () => {
 					</h1>
 					<div className="d-flex justify-content-center align-items-center mb-5">
 						<button onClick={() => setItems(Portfol)}>ALL</button>
-						<button onClick={() => filterItem("Portfolio")}>PORTFOLIO</button>
+						{/* <button onClick={() => filterItem("Portfolio")}>PORTFOLIO</button> */}
 						<button onClick={() => filterItem("Websites")}>WEBSITES</button>
 						<button onClick={() => filterItem("E-Com")}>E-COM</button>
 					</div>

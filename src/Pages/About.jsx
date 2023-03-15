@@ -1,4 +1,4 @@
-import Dharan from "../Images/Dharan.jpg";
+import Dharan from "../Images/Dharan.png";
 import Cv from "../Images/Resume.pdf";
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
 					<h1>
 						About <span>Me</span>
 					</h1>
-					<div className="col-md-6 p-0 m-auto d-flex justify-content-center align-items-center">
+					<div className="col-md-6 p-2 m-auto d-flex justify-content-center align-items-center">
 						<div className="my-pic">
 							<img src={Dharan} alt="img" />
 						</div>
