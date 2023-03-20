@@ -1,5 +1,5 @@
 import Dharan from "../Images/Dharan.png";
-import Cv from "../Images/Resume.pdf";
+// import Cv from "../Images/Resume.pdf";
 
 const About = () => {
 	return (
@@ -19,9 +19,13 @@ const About = () => {
 							Hai I Am, <span>Dharanikumar K</span>
 						</h3>
 						<p className="mb-4">
-							I'm a FullStack Developer. My expertise is to create Web Application and Websites Design.
+							{/* I'm a FullStack Developer. My expertise is to create Web Application and Websites Design. */}
+							Hello, I am DHARANIKUMAR K, MBA & Engineering graduate student. Aspiring Full Stack Developer with a focus
+							on the MERN stack who is passionate and dedicated. I want to use my technical knowledge and skills to
+							build and develop high-quality, user-friendly platforms. I'm looking for a challenging position at a
+							fast-paced company where I can expand my knowledge and contribute to exciting projects.
 						</p>
-						<ul className="mb-5 p-0">
+						<ul className="mb-4 p-0">
 							<li>
 								<span>Name</span>
 								Dharanikumar K
@@ -48,8 +52,12 @@ const About = () => {
 								dharanfsd@gmail.com
 							</li>
 						</ul>
-						<a href={Cv} download="Resume">
+						{/* <a href={Cv} download="Resume">
 							<button>DOWNLOAD CV</button>
+						</a> */}
+						<a href="https://drive.google.com/file/d/1_EnxN1Wh4wsIP4EigSg-a6DiCdNtQtpO/view?usp=sharing" target="blank">
+							{/* {Cv} download="Resume" */}
+							<button>VIEW RESUME</button>
 						</a>
 					</div>
 				</div>

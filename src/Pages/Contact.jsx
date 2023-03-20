@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
-import { FaPhoneVolume } from "react-icons/fa";
-import { HiLocationMarker, HiOutlineMail } from "react-icons/hi";
+import { FaGithub, FaLinkedin, FaPhoneVolume } from "react-icons/fa";
+import { HiOutlineMail, HiShare } from "react-icons/hi";
 
 const Contact = () => {
 	const form = useRef();
@@ -30,22 +30,35 @@ const Contact = () => {
 						<div className="card mb-3 d-flex flex-wrap justify-content-center align-items-center">
 							<div>
 								<icon>
-									<HiLocationMarker />
+									{/* <HiLocationMarker /> */}
+									<HiShare className="mb-2" />
 								</icon>
-								<h6>Address</h6>
-								<p>Kancheepuram, TamilNadu</p>
+								<h6 className="mb-3">Social</h6>
+								<ul className="social-icon">
+									<a href="https://www.linkedin.com/in/dharanikumarkfsd/" target="blank">
+										<li>
+											<FaLinkedin />
+										</li>
+									</a>
+									<a href="https://github.com/KDharanikumar" target="blank">
+										<li>
+											<FaGithub />
+										</li>
+									</a>
+									{/* <p>Kancheepuram, TamilNadu</p> */}
+								</ul>
 							</div>
 
 							<div>
 								<icon>
-									<FaPhoneVolume />
+									<FaPhoneVolume className="mb-2" />
 								</icon>
 								<h6>Phone</h6>
 								<p>+91-9952638437</p>
 							</div>
 							<div>
 								<icon>
-									<HiOutlineMail />
+									<HiOutlineMail className="mb-2" />
 								</icon>
 								<h6>E-Mail</h6>
 								<p>dharanfsd@gmail.com</p>

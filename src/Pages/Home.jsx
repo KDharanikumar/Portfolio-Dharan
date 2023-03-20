@@ -64,7 +64,7 @@ function Home() {
 									</a>
 
 									<a href="mailto:dharanfsd@gmail.com">
-										<button>CONATCT</button>
+										<button>CONTACT</button>
 									</a>
 								</div>
 							</div>

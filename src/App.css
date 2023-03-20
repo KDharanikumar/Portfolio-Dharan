@@ -252,15 +252,20 @@ button:hover {
 /*******************************************************---ABOUT---******************************************************/
 
 .my-pic img {
-	height: 450px;
+	height: 550px;
 	width: 100%;
+	/* object-fit: cover; */
 	border-radius: 10px;
 	margin-bottom: 20px;
 	background-color: #f3ebee;
 }
 
+.my-details p {
+	text-align: justify;
+}
+
 .my-details ul li {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .my-details ul li span {
@@ -493,6 +498,29 @@ button:hover {
 .form-control::placeholder {
 	color: #fff;
 	opacity: 0.5;
+}
+
+.address-card .social-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 30px;
+	padding: 0px;
+}
+
+.address-card li {
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+}
+
+.address-card li:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+	border-radius: 100%;
+	background-color: #ff014f;
+	cursor: pointer;
 }
 
 /*******************************************************---FOOTER---******************************************************/
