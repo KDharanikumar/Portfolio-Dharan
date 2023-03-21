@@ -386,12 +386,13 @@ button:hover {
 /*******************************************************---PORTFOLIO---******************************************************/
 
 .mywork {
-	height: 350px;
+	height: 340px;
 	width: 260px;
 	display: block;
 	overflow: hidden;
 	position: relative;
 	border: 2px solid #ff014f;
+	cursor: pointer;
 }
 
 .mywork img {
@@ -430,7 +431,7 @@ button:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 48px;
+	font-size: 34px;
 	font-weight: 800;
 	opacity: 0;
 	transition: opacity 0.25s;
@@ -439,6 +440,26 @@ button:hover {
 .mywork a:hover {
 	opacity: 1;
 	transform: translateY(0);
+}
+
+.program {
+	height: 50px;
+	width: 260px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.source-link a {
+	margin: 0px 10px 10px 10px;
+	font-size: 32px;
+	color: #fff;
+}
+
+.source-link a:hover {
+	color: #ff014f;
 }
 /*******************************************************---CONATCT---******************************************************/
 

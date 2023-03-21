@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { BsFillEyeFill } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+// import { Link } from "react-scroll";
 import Portfol from "../Data/Portfolio.json";
 
 const Portfolio = () => {
@@ -27,13 +29,22 @@ const Portfolio = () => {
 					</div>
 					<div className="col d-flex flex-wrap justify-content-evenly align-items-center gap-3">
 						{items.map((element) => {
-							const { category, picture, url } = element;
+							const { category, picture, hosturl, giturl, program, title } = element;
 							return (
-								<div className="mywork">
-									<img src={picture} alt={category} />
-									<a href={url} target="blank">
-										<BsFillEyeFill />
-									</a>
+								<div>
+									<p className="text-center fs-6 fw-bold mb-2">{title}</p>
+									<div className="mywork mb-3">
+										<img src={picture} alt={category} />
+									</div>
+									<div className="source-link d-flex justify-content-center">
+										<a href={hosturl} target="blank">
+											<BsFillEyeFill />
+										</a>
+										<a href={giturl} target="blank">
+											<FaGithub />
+										</a>
+									</div>
+									<p className="program">{program}</p>
 								</div>
 							);
 						})}

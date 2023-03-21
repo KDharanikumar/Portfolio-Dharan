@@ -1,26 +1,38 @@
 [
 	{
 		"id": "1",
+		"title": "PORTFOLIO",
 		"category": "Websites",
 		"picture": "Images/Portfolio.jpg",
-		"url": "https://dharanportfolio.netlify.app/"
+		"hosturl": "https://dharanportfolio.netlify.app/",
+		"giturl": "https://dharanportfolio.netlify.app/",
+		"program": "HTML | CSS | BOOTSTRAP | REACTJS"
 	},
 	{
 		"id": "2",
+		"title": "FITNESS APP",
 		"category": "Websites",
 		"picture": "Images/FitLog.png",
-		"url": "https://fitnesslog.netlify.app/"
+		"hosturl": "https://fitnesslog.netlify.app/",
+		"giturl": "https://github.com/KDharanikumar/FitLog-Client",
+		"program": "HTML | CSS | BOOTSTRAP | REACTJS"
 	},
 	{
 		"id": "3",
+		"title": "ADDRESS BOOK",
 		"category": "Websites",
 		"picture": "Images/Address Book.jpg",
-		"url": "https://addressstorebook.netlify.app/"
+		"hosturl": "https://addressstorebook.netlify.app/",
+		"giturl": "https://github.com/KDharanikumar/Addresss-Book-Client",
+		"program": "HTML | CSS | BOOTSTRAP | REACTJS | EXPRESSJS | MONGODB | MONGOOSE | JWT"
 	},
 	{
 		"id": "4",
+		"title": "PIZZA APP",
 		"category": "E-Com",
 		"picture": "Images/Pizza.jpg",
-		"url": "https://pizza-client.netlify.app/"
+		"hosturl": "https://pizza-client.netlify.app/",
+		"giturl": "https://github.com/KDharanikumar/Pizza-Client",
+		"program": "HTML | CSS | BOOTSTRAP | REACTJS | EXPRESSJS | MONGODB | MONGOOSE | JWT"
 	}
 ]
