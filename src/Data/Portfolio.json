@@ -3,7 +3,7 @@
 		"id": "1",
 		"title": "LIBRARY",
 		"category": "Websites",
-		"picture": "Images/Libarary.jpg",
+		"picture": "Images/Library.jpg",
 		"hosturl": "https://librarymanagements.netlify.app/",
 		"giturl": "https://github.com/KDharanikumar/Library-Management",
 		"program": "HTML | CSS | BOOTSTRAP | REACTJS | EXPRESSJS | MONGODB | MONGOOSE | JWT"
