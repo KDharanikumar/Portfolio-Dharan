@@ -54,7 +54,7 @@ const About = () => {
 						{/* <a href={Cv} download="Resume">
 							<button>DOWNLOAD CV</button>
 						</a> */}
-						<a href="https://drive.google.com/file/d/1FeeDHfexmDF4-L8ye-CoI9WhPs3z7I9d/view?usp=sharing" target="blank">
+						<a href="https://drive.google.com/file/d/1GwKhTSIJRSSkM9e3u-ilbgrzcwChYRzy/view?usp=sharing" target="blank">
 							{/* {Cv} download="Resume" */}
 							<button>VIEW RESUME</button>
 						</a>
