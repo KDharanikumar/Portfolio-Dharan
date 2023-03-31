@@ -1,5 +1,5 @@
-import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaNode, FaReact } from "react-icons/fa";
-import { SiExpress, SiJavascript, SiMongodb, SiMysql } from "react-icons/si";
+import { FaBootstrap, FaCss3Alt, FaHtml5, FaNode, FaReact } from "react-icons/fa";
+import { SiExpress, SiJavascript, SiMongodb, SiMysql, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
 	return (
@@ -28,6 +28,12 @@ const Skills = () => {
 									<FaBootstrap />
 								</icon>
 								<p>Bootstrap</p>
+							</li>
+							<li>
+								<icon style={{ color: "#38BDF8" }}>
+									<SiTailwindcss />
+								</icon>
+								<p>Tailwind CSS</p>
 							</li>
 							<li>
 								<icon style={{ color: "#E9D44D" }}>
@@ -64,12 +70,6 @@ const Skills = () => {
 									<SiMysql />
 								</icon>
 								<p>My SQL</p>
-							</li>
-							<li>
-								<icon style={{ color: "#fff" }}>
-									<FaGithub />
-								</icon>
-								<p>GITHUB</p>
 							</li>
 						</ul>
 					</div>

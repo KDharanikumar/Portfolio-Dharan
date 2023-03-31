@@ -61,7 +61,10 @@ const Contact = () => {
 									<HiOutlineMail className="mb-2" />
 								</icon>
 								<h6>E-Mail</h6>
-								<p>dharanfsd@gmail.com</p>
+								<a href="mailto:dharanfsd@gmail.com" style={{ color: "#fff" }}>
+									dharanfsd@gmail.com
+								</a>
+								{/* <p>dharanfsd@gmail.com</p> */}
 							</div>
 						</div>
 					</div>
