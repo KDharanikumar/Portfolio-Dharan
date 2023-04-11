@@ -20,9 +20,10 @@ const About = () => {
 						</h3>
 						<p className="mb-4">
 							{/* I'm a FullStack Developer. My expertise is to create Web Application and Websites Design. */}
-							Hello, I am DHARANIKUMAR K, MBA & Engineering graduate student. Aspiring Full Stack Developer with a focus on the MERN stack who is
-							passionate and dedicated. I want to use my technical knowledge and skills to build and develop high-quality, user-friendly platforms.
-							I'm looking for a challenging position at a fast-paced company where I can expand my knowledge and contribute to exciting projects.
+							Hello, I am DHARANIKUMAR K, MBA & Engineering graduate student. Aspiring Full Stack Developer with a focus
+							on the MERN stack who is passionate and dedicated. I want to use my technical knowledge and skills to
+							build and develop high-quality, user-friendly platforms. I'm looking for a challenging position at a
+							fast-paced company where I can expand my knowledge and contribute to exciting projects.
 						</p>
 						<ul className="mb-4 p-0">
 							<li>
@@ -54,7 +55,11 @@ const About = () => {
 						{/* <a href={Cv} download="Resume">
 							<button>DOWNLOAD CV</button>
 						</a> */}
-						<a href="https://drive.google.com/file/d/1X1U3rO_MEJlxL3uUqhJTeEYaHBKxLSi2/view?usp=share_link" target="_blank" rel="noreferrer">
+						<a
+							href="https://drive.google.com/file/d/1qTUc9y3hgdzlvJV3L5HyA6oTt7mm3wD3/view?usp=share_link"
+							target="_blank"
+							rel="noreferrer"
+						>
 							{/* {Cv} download="Resume" */}
 							<button>VIEW RESUME</button>
 						</a>
